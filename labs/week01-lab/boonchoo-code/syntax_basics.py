@@ -32,6 +32,7 @@ print("Type of my_boolean:", type(my_boolean))
 # Exercise 3: String Operations
 first_name = "John"
 last_name = "Doe"
+test_age = "26"
 
 # Concatenate strings
 full_name = first_name + " " + last_name
@@ -77,16 +78,16 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
-favorite_color = 
+favorite_color = "Green"
 
 # Integer variable with the current year
-current_year = 
+current_year = 2025
 
 # Float variable with your favorite number (with decimal)
-favorite_number = 
+favorite_number = 3.1416
 
 # Boolean variable indicating if you like pizza
-likes_pizza = 
+likes_pizza = True
 
 # Print all variables with descriptive messages
 print("My favorite color is:", favorite_color)
