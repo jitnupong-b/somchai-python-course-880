@@ -1,7 +1,3 @@
-# =============================================================================
-# DEMO 1: Basic Arithmetic Operators
-# =============================================================================
-
 print("=" * 50)
 print("DEMO 1: Basic Arithmetic Operators")
 print("=" * 50)
@@ -50,7 +46,6 @@ print("=" * 50)
 print("DEMO 2: Interactive Calculator")
 print("=" * 50)
 
-# รับ input จากผู้ใช้
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
