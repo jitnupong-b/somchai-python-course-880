@@ -16,6 +16,6 @@ amount = float(input("Amount: "))
 
 if choice == "1":
     print(f"{amount} THB = {amount / 35.5} USD")
-        
+            
 if choice == "2":
     print(f"{amount} USD = {amount * 35.5} THB")
