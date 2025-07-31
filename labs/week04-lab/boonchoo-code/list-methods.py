@@ -3,9 +3,13 @@ numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5]
 fruits = ["apple", "banana", "apple", "orange"]
 
 # Length and counting
-print(f"Length: {len(numbers)}")           # 9
-print(f"Count of 1: {numbers.count(1)}")   # 2
-print(f"Count of apple: {fruits.count('apple')}")  # 2
+print(f"Length: {len(numbers)}")           # ____________
+print(f"Count of 1: {numbers.count(1)}")   # ____________
+print(f"Count of apple: {fruits.count('apple')}")  # __________
+
+print("Length: ", len(numbers))
+print("Length: " + len(numbers))
+print(f"Length: {len(numbers)}")
 
 # Finding elements
 print(f"Index of 4: {numbers.index(4)}")   # 2

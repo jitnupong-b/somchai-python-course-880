@@ -31,5 +31,6 @@ tuple2 = (4, 5, 6)
 combined = tuple1 + tuple2
 print(f"Combined: {combined}")           # (1, 2, 3, 4, 5, 6)
 
+text = "Hello" * 5 + "World"
 repeated = tuple1 * 3
 print(f"Repeated: {repeated}")           # (1, 2, 3, 1, 2, 3, 1, 2, 3)

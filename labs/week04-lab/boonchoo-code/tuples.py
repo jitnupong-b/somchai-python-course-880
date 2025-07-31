@@ -9,7 +9,7 @@ mixed_tuple = (1, "hello", 3.14, True)
 
 # Single element tuple (note the comma!)
 single_tuple = (42,)  # Without comma, it's just parentheses around a value
-not_a_tuple = (42)    # This is just an integer
+not_a_tuple = (42)   # This is just an integer
 
 # Tuple from list
 my_list = [1, 2, 3, 4]
