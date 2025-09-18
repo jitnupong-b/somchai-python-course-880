@@ -17,6 +17,7 @@ class Animal:
 
 # Child class (Derived class)
 class Dog(Animal):
+
     def __init__(self, name, breed):
         super().__init__(name, "Canine")  # Call parent constructor
         self.breed = breed

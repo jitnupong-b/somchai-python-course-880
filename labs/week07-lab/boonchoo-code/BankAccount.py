@@ -1,6 +1,7 @@
 class BankAccount:
     """A simple bank account class"""
     
+    # constructor method
     def __init__(self, account_holder, initial_balance=0):
         self.account_holder = account_holder
         self.balance = initial_balance
@@ -37,10 +38,8 @@ class BankAccount:
         else:
             return "No transactions yet"
 
-# Example usage
-account = BankAccount("John Doe", 1000)
-print(account.get_balance())
-print(account.deposit(500))
-print(account.withdraw(200))
-print("\nTransaction History:")
-print(account.get_transaction_history())
+account2 = BankAccount("Boonchoo")
+account2.balance = 50000 #fraud
+account2.transaction_history.append("Deposited: 500000000") #fraud
+print(account2.deposit(100))
+print(account2.withdraw(50))
