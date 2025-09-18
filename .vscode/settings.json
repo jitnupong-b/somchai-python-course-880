@@ -17,8 +17,6 @@
         "markdown": false,
         "scminput": false
     },
-<<<<<<< HEAD
-=======
     // Prevents inline suggestions from appearing.
     "editor.inlineSuggest.enabled": false,
     // Disables the parameter hints that pop up when you type a function signature.
@@ -37,5 +35,4 @@
     "github.copilot.advanced": {
         "inlineSuggest.enableFor": {}
     }
->>>>>>> upstream/main
 }
